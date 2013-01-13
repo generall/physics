@@ -1,0 +1,9 @@
+*.[oa]
+*.aux
+*.log
+*.dvi
+*.gz
+*~
+*.bak
+*.gz
+*.toc
