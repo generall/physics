@@ -41,3 +41,81 @@ $\nabla =  \overrightarrow{i} \frac{\partial}{\partial x} + \overrightarrow{j} \
 
 \subsubsection{Потенциал}
 
+
+Из механики известно, что любое поле центральных сил я является консервативным, т.е. работа силы при перемещении по замкнутому контуру равняется нулю.
+
+Из этого следует теорема о циркуляции:
+
+Циркуляция вектора $\overrightarrow{E}$ по любому замкнутому контуру равняется нулю.
+
+\begin{equation}
+\oint \overrightarrow{E} d \overline{l} = 0 
+\end{equation}
+
+Поле, обладающее данным свойством, называют потенциальным.
+Любое электростатическое поле является потенциальным.
+
+Потенциал - это величина, численно равная энергии частицы с единичным положительным зарядом в данной точке поля.
+
+\begin{equation}
+\int_1^2 \overrightarrow{E} d \overline{l} = \phi_1 - \phi_2
+\end{equation}
+
+Пусть проекция приращение расстояние $dl$ на ось X есть $\overline{i} dx$. Тогда
+\[E_xW = - \frac{\partial \phi}{\partial x}\] 
+отсюда:
+
+\begin{equation}
+\overline{E} =  - \nabla \phi
+\end{equation}
+
+\subsubsection{Диполь}
+
+Диполь - система одинаковых по модулю, разноименных точечных зарядов, находящихся на некотором расстоянии l друг от друга.
+Предполагается, что расстояние между зарядами много меньше, чем до некоторых, интересующих нас точек.
+
+Поле диполя обладает осевой симметрией.
+
+Потенциал поля:
+
+
+\begin{equation}
+\phi = \frac{q l \cos(\gamma)}{4 \pi \epsilon_o r^2}
+\end{equation}
+
+Где $\gamma$ - угол между осью диполя и прямой, соединяющей точки и геометрический центр диполя.
+
+\[p = ql\]
+ - электрический момент диполя.
+
+Модуль напряженности поля, создаваемого диполем можно определить по формуле:
+
+\begin{equation}
+E = \sqrt{E_r^2 + E_\gamma^2}
+\end{equation}
+
+Где
+\[E_r = - \frac{\partial \phi}{\partial r}\]
+\[E_\gamma = - \frac{\partial \phi}{r \partial \gamma}\]
+
+Сила, действующая на заряд диполя равняется разности напряженности поля в точке положительного и отрицательного зарядов.
+Таким образом, так как расстояние между зарядами мало, то
+
+\begin{equation}
+\overline{F} = q l \frac{\partial \overline{E}}{\partial l} = p \frac{\partial \overline{E}}{\partial l}
+\end{equation}
+Где $\frac{\partial \overline{E}}{\partial l}$ - производная по направлению l.
+
+Момент сил, действующих на диполь:
+
+
+\begin{equation}
+M = [\overline{p},\overline{E}]
+\end{equation}
+
+Энергия диполя:
+
+\begin{equation}
+W = -\overline{p} \overline{E}
+\end{equation}
+
