@@ -1,1 +1,43 @@
 \section{Электро(статика/динамика), теория поля}
+	\subsection{Электростатика}
+		\subsubsection{Теорема Гаусса}
+		
+		Поток вектора $\overrightarrow{E}$ через произвольную замкнутую поверхность зависит только от суммы зарядов, находящихся внутри этой поверхности.
+		
+\begin{equation} \label{eq:int_Gauss}
+\oint_{S} \overrightarrow{E} d \overrightarrow{S} = \frac{q_{in}}{\epsilon_{0}}
+\end{equation}
+
+Разделим правую и левую часть уравнения (\ref{eq:int_Gauss}) на объем $V$ и устремим его к 0.
+
+\begin{equation}
+\lim_{V -> 0} \frac{1}{V} \oint_{S} \overrightarrow{E} d \overrightarrow{S} = \frac{<p>}{\epsilon_0}
+\end{equation}
+
+Согласно определению, отношение потока через замкнутую поверхность к объему этой поверхности при стремлении объёма к нулю есть дивергенция вектора поля.
+
+\begin{equation}
+div \overrightarrow{E} =  \lim_{V -> 0} \frac{1}{V} \oint_{S} \overrightarrow{E} d \overrightarrow{S}
+\end{equation}
+
+Таким образом:
+
+\begin{equation}
+div \overrightarrow{E} = \frac{p}{\epsilon_0}
+\end{equation}
+
+или
+
+\begin{equation} \label{eq:dif_Gauss}
+\nabla \cdot  \overrightarrow{E} = \frac{p}{\epsilon_0}
+\end{equation}
+
+, где $p$ - плотность заряда в точке
+
+$\nabla =  \overrightarrow{i} \frac{\partial}{\partial x} + \overrightarrow{j} \frac{\partial}{\partial y} + \overrightarrow{k} \frac{\partial}{\partial z}$
+
+Уравнение (\ref{eq:dif_Gauss}) есть запись уравнения Гаусса в дифференциальной форме.
+
+
+\subsubsection{Потенциал}
+
