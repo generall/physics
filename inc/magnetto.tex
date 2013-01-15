@@ -79,5 +79,141 @@ d \overrightarrow{F} = I [d \overrightarrow{l},\overrightarrow{B} ]
 
 
 \subsection{Индукция}
+\subsection{Максвелл}
 
 
+\begin{equation}
+\overrightarrow{j_{full}} = \overrightarrow{j} + \frac{\partial \overrightarrow{D}}{\partial t}
+\end{equation}
+
+\begin{equation}
+\oint \overrightarrow{H} d \overrightarrow{l} = \int (\overrightarrow{j} + \frac{\partial \overrightarrow{D}}{\partial t}) d\overrightarrow{S}
+\end{equation}
+
+
+\begin{equation}
+\nabla \times \overrightarrow{H} = \overrightarrow{j} + \frac{\partial \overrightarrow{D}}{\partial t}
+\end{equation}
+
+
+Уравнения Максвелла.
+
+
+\begin{equation}
+\oint \overrightarrow{E} d \overrightarrow{l} = - \oint  \frac{\partial \overrightarrow{B}}{\partial t} d\overrightarrow{S}
+\end{equation}
+
+\begin{equation}
+\oint \overrightarrow{H} d \overrightarrow{l} = \int (\overrightarrow{j} + \frac{\partial \overrightarrow{D}}{\partial t}) d\overrightarrow{S}
+\end{equation}
+
+
+\begin{equation}
+\oint \overrightarrow{D} d \overrightarrow{S} = \int p d V
+\end{equation}
+
+
+\begin{equation}
+\oint \overrightarrow{B} d \overrightarrow{S} = 0
+\end{equation}
+
+
+Уравнения Максвелла в дифференциальной форме.
+
+
+\begin{equation}
+\nabla \times \overrightarrow{E} = - \frac{\partial \overrightarrow{B}}{\partial t}
+\end{equation}
+
+\begin{equation}
+\nabla \times \overrightarrow{H} = \overrightarrow{j} + \frac{\partial \overrightarrow{D}}{\partial t}
+\end{equation}
+
+\begin{equation}
+\nabla \cdot \overrightarrow{D} = p
+\end{equation}
+
+
+\begin{equation}
+\nabla \cdot \overrightarrow{B} = 0
+\end{equation}
+
+Материальные уравнения
+
+
+\begin{equation}
+\overrightarrow{D} = \varepsilon \varepsilon_0 \overrightarrow{E}
+\end{equation}
+
+\begin{equation}
+\overrightarrow{B} = \mu \mu_0 \overrightarrow{H}
+\end{equation}
+
+\begin{equation}
+\overrightarrow{j} = \sigma (\overrightarrow{E} + \overrightarrow{E}^*)
+\end{equation}
+
+
+Теорема Пойнтинга:
+
+
+\begin{equation}
+- \frac{d W}{d t} = \oint \overrightarrow{S} d \overrightarrow{A} + P
+\end{equation}
+
+Где S - плотность потока энергии А - элемент поверхности P - работа поля над зарядом
+
+
+\begin{equation}
+\overrightarrow{S} = [\overrightarrow{E} \overrightarrow{H} ]
+\end{equation}
+
+
+Импульс появляется вследствие воздействия магнитного поля волны на ток в проводнике, индуцируемый электрическим полем волны.
+
+\begin{equation}
+\overrightarrow{j} = \sigma \overrightarrow{E}
+\end{equation}
+
+
+\begin{equation}
+\overrightarrow{F} = [\overrightarrow{j} \overrightarrow{B}] = \sigma [\overrightarrow{E} \overrightarrow{B}]
+\end{equation}
+
+Плотность импульса
+
+\begin{equation}
+\overrightarrow{G} = \frac{\overrightarrow{S}}{c^2}
+\end{equation}
+
+\subsubsection{Волновое уравнение}
+
+Выводится из уравнений Максвелла в дифференциальной форме.
+
+
+\begin{eqnarray}
+\nabla^2 \overrightarrow{E} = \varepsilon \varepsilon_0 \mu \mu_0  \frac{\partial^2 \overrightarrow{E}}{ \partial t^2} \\
+\nabla^2 \overrightarrow{H} = \varepsilon \varepsilon_0 \mu \mu_0 \frac{\partial^2 \overrightarrow{H}}{ \partial t^2}
+\end{eqnarray}
+
+
+Для плоской волны выполняется условие
+
+
+\begin{eqnarray}
+\frac{\partial \overrightarrow{E_y} } {\partial x} = - \mu \mu_0 \frac{\partial \overrightarrow{H_z}} {\partial t} \\
+\frac{\partial  \overrightarrow{H_z}} {\partial x} = - \varepsilon \varepsilon_0 \frac{\partial  \overrightarrow{E_y}} {\partial t}
+\end{eqnarray}
+
+Если обозначить 
+
+\begin{equation}
+E_y = E_y (t - x/v)
+\end{equation}
+\begin{equation}
+H_z = H_z (t - x/v)
+\end{equation}
+
+\begin{equation}
+\sqrt{\varepsilon \varepsilon_0} E_y = \sqrt{\mu \mu_0 } H_z
+\end{equation}
